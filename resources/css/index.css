@@ -1,0 +1,24 @@
+#container {width: 90%; height: 735px;}
+#bg { width: 100%; height: 700px; background: url(../img/bg.png) no-repeat; margin-left: 5%; background-size: 100% 100%}
+#side-bar {width: 100px; height: 100%; padding-top: 20px;}
+.nav1 {margin: 0 auto 10px; width: 50px}
+.nav1_child {width: 50px; height: 90px; margin-top: 10px; }
+.img-container {width: 50px; height: 50px; overflow: hidden; position: relative;}
+.img-container:hover{cursor: pointer;}
+p{font-size: 15px; font-family: "MicroSoft Yahei"; margin-top: 10px; margin-left: 10px;}
+
+.nav2 {display: none;}
+.nav2_child {width:80px; overflow: hidden; height: 30px; margin-top: 20px; position: relative; margin-left: 10px;}
+.nav2_child:hover {cursor: pointer;}
+
+#choice-bar {width: 700px; height:790px; position: relative; left: 100px; top: -780px; overflow: hidden; }
+.choice_child {width: 180px; height:100%; margin-right:23px; display: inline-block;  /*overflow: hidden;*/ }
+.choice-img-container { margin: 100px auto auto; width: 120px; height: 550px; overflow: hidden; position: relative; }
+.choice_child:hover {cursor: pointer;}
+.tips-container {display: none;}
+.search {position: absolute; bottom: 50px; left: 15px;}
+input {width: 200px; height: 25px; border: 0px #fff; border-radius: 15px; font: 17px "MicroSoft Yahei"; padding-left: 20px;}
+#room {position: fixed; right: 200px; bottom: 50px;}
+button {height: 25px;width: 100px;border: 0;border-radius: 15px;background-color: #b64b4c;font-family: "MicroSoft Yahei";}
+
+
